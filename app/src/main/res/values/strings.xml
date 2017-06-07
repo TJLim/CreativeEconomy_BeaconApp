@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">제주창조경제혁신센터</string>
+    <string name="app_name_ce">제주창조경제혁신센터</string>
+    <string name="app_name_jm">중문관광단지</string>
+    <string name="center_intrdc">센터소개</string>
+    <string name="center_owner">센터장</string>
+    <string name="center_owner2">전정환</string>
+    <string name="address">주소</string>
+    <string name="address2">제주도 제주시 중앙로 217 제주벤처마루 3~4F</string>
+    <string name="tel">TEL</string>
+    <string name="tel2">064-710-1900</string>
+    <string name="home_url">홈페이지</string>
+    <string name="home_url2">https://ccei.creativekorea.or.kr/jeju/</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="blueTooth">블루투스 설정</string>
+    <string name="beaconPush">비콘 푸쉬 알람</string>
+</resources>

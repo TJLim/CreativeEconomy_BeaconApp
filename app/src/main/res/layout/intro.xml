@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:background="@drawable/img_1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:background="#CC000000"
+            android:text="이 앱은 위치기반 기술인 비콘을 연동하여"
+            android:textColor="#F8F2E0"
+            android:gravity="center|bottom"/>
+
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="중문관광단지에"
+            android:textColor="#F8F2E0"/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:background="@drawable/img_2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:background="#CC000000"
+            android:text="스마트한 제주도 관광을 서비스하는 앱입니다."
+            android:textColor="#F8F2E0"
+            android:gravity="center|top"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/img_1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.9"
+                android:id="@+id/go_ce"
+                android:background="#EE000000"
+                android:text="제주창조경제혁신센터\n\nzzzzzzz\n\naaaaaaaa"
+                android:textColor="#FFF8F2E0"
+                android:onClick="txtClick"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="중문관광단지에"
+                android:textColor="#F8F2E0"
+                android:background="#BB052438"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/img_2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="오신 것을 환영합니다."
+                android:textColor="#F8F2E0"
+                android:background="#BB052438"
+
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.9"
+                android:id="@+id/go_jm"
+                android:text="중문관광단지"
+                android:textColor="#F8F2E0"
+                android:background="#DD000000"
+                android:onClick="txtClick"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>-->

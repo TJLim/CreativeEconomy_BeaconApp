@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:background="@drawable/img_1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center|bottom"
+                android:background="#50000000"
+                android:text="새로운 연결을 통한 창조의 섬\n"
+                android:textColor="#FFF8F2E0"
+                android:textSize="23dp"
+                android:id="@+id/go_ce"
+                android:onClick="txtClick"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center|top"
+                android:background="#50000000"
+                android:text="제주창조경제혁신센터"
+                android:textColor="#FFF8F2E0"
+                android:textSize="17dp"
+                android:id="@+id/go_ce2"
+                android:onClick="txtClick"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:background="@drawable/img_2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center|bottom"
+                android:background="#50000000"
+                android:text="천혜의 자연경관, 국가대표 관광지\n"
+                android:textColor="#FFF8F2E0"
+                android:textSize="23dp"
+                android:id="@+id/go_jm"
+                android:onClick="txtClick"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center|top"
+                android:background="#50000000"
+                android:text="중문관광단지"
+                android:textColor="#FFF8F2E0"
+                android:textSize="17dp"
+                android:id="@+id/go_jm2"
+                android:onClick="txtClick"/>
+
+        </LinearLayout>
+
+</LinearLayout>

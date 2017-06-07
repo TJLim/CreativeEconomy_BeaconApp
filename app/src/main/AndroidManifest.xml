@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="creativeeconomy.beacon.com.creativeeconomy_app">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" /><!--커넥션 요구, 수락, 데이터 전송 등의 블루투스 통신을 하기 위해 필요한 권한 -->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /><!--디바이스 검색시작, 블루투스 설정을 조작하기 위해 필요 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <!-- 서비스 관련 퍼미션 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_SERVICE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ce.CE_IntrdcMain"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.MainActivity"
+                android:launchMode="singleTask"
+                android:label="@string/app_name_ce"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        </activity>
+
+        <activity
+            android:name=".jm.JM_IntrdcMain"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.MainActivity"
+                android:label="@string/app_name_jm"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        </activity>
+
+        <activity
+            android:name=".main.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <!--<activity
+            android:name=".tamra.examples.SimulatorExampleActivity"
+            android:screenOrientation="portrait" />-->
+        <activity
+            android:name=".tamra.PageOpen"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.MainActivity"
+                android:label="@string/app_name"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        </activity>
+
+        <activity android:name=".Intro"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
+
+        <activity android:name=".ce.CE_Tab"
+                    android:screenOrientation="portrait">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".main.MainActivity"
+            android:launchMode="singleTask"
+            android:label="@string/app_name_ce"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        </activity>
+
+        <activity android:name=".jm.JM_Tab"
+                    android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.MainActivity"
+                android:launchMode="singleTask"
+                android:label="@string/app_name_jm"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        </activity>
+
+        <activity
+            android:name=".ce.CE_Facility"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.MainActivity"
+                android:launchMode="singleTask"
+                android:label="@string/app_name_ce"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        </activity>
+
+        <activity
+            android:name=".ce.CE_Business"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.MainActivity"
+                android:launchMode="singleTask"
+                android:label="@string/app_name_ce"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        </activity>
+
+        <activity
+            android:name=".ce.CE_Map"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.MainActivity"
+                android:launchMode="singleTask"
+                android:label="@string/app_name_ce"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        </activity>
+
+        <activity
+            android:name=".jm.JM_Dulle"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.MainActivity"
+                android:launchMode="singleTask"
+                android:label="@string/app_name_jm"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        </activity>
+
+        <activity
+            android:name=".jm.JM_Attraction"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.MainActivity"
+                android:launchMode="singleTask"
+                android:label="@string/app_name_jm"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        </activity>
+
+        <activity
+            android:name=".jm.JM_Map"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.MainActivity"
+                android:launchMode="singleTask"
+                android:label="@string/app_name_jm"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        </activity>
+
+        <service android:name=".common.BackgroundService">
+            <intent-filter>
+                <action android:name="BeaconService"></action>
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".common.RestartService"
+            android:process=":remote"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="ACTION.Restart.PersistentService"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>
